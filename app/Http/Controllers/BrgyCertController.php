@@ -65,21 +65,22 @@ class BrgyCertController extends Controller
             'first_name'        => 'required',
             'last_name'         => 'required',
             'birthdate'         => 'required',
-            'age'               => 'required|max:3',
             'addr4'             => 'required',
-            'addr5'             => 'required',
+            'street'             => 'required',
             'purpose'           => 'required',
             'email'             => 'required',
             'mobile_number'     => 'required',
         ]);
 
-        $address = trim($request->addr1." ".$request->addr2." ".$request->addr3." ".$request->addr4." ".$request->addr5." ".$request->addr6);
+        $address = trim($request->addr1." ".$request->addr2." ".$request->addr3." ".$request->addr4." ".$request->street);
 
         // $address = $request->addr4." ".$request->addr5;
 
         // dd($address);
 
         // $doc_type = "brgy_clearance";
+
+        // dd($request);
 
         BrgyCert::create([
             'first_name'        => $request->first_name,

@@ -6,6 +6,8 @@
     <title>Barangay Pitogo</title>
     <link rel="logo" href="imgs/seal.ico" type="image/x-icon">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/services.js') }}"></script>
   </head>
 
   <body>
@@ -39,4 +41,5 @@
     @yield('content')
     
   </body>
+  
 </html>

@@ -78,6 +78,8 @@ class ComplaintRecordRepository implements ComplaintRecordRepositoryInterface
                 'type' => $payload['type'],
                 'details' => $payload['details'],
                 'date_of_event' => $payload['date_of_event'],
+                'complainant' => $payload['complainant'],
+                'place_of_incident' => $payload['place_of_incident'],
                 'evidence_file_directory' => $evidenceFile ? $uploadedFileDir : '',
             ]);
 

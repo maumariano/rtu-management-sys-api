@@ -18,6 +18,8 @@ class CreateComplaintsRecordsTable extends Migration
             $table->foreignId('resident_record_id')->constrained('resident_records')->cascadeOnDelete();
             $table->string('type');
             $table->string('evidence_file_path');
+            $table->string('complainant');
+            $table->string('place_of_incident');
             $table->softDeletes();
             $table->timestamps();
         });

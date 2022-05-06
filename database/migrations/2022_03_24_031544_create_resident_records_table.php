@@ -25,10 +25,16 @@ class CreateResidentRecordsTable extends Migration
             $table->string('landline')->nullable();
             $table->string('birthdate');
             $table->string('region');
+            $table->string('gender');
+            $table->string('civil_status');
+            $table->string('profession');
+            $table->string('citizenship');
             $table->string('city');
             $table->string('barangay');
             $table->string('address_line1');
             $table->string('address_line2')->nullable();
+            $table->string('category_id');
+            $table->string('category_id_no');
             $table->timestamps();
             $table->softDeletes();
 

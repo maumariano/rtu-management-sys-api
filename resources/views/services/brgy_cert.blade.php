@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="main">
-			<div class="left"> 
+			<!-- <div class="left"> 
 			 <h2>Services</h2>
 			 <br>
 				<ul class="serv__listitemdrop">
@@ -13,7 +13,7 @@
 				  <li><a href="{{ route('permit') }}">Permit for Telecommunication</a></li>
 				  <li><a href="{{ route('spc') }}">Solo Parent Certification</a></li>
 				</ul>
-			</div>
+			</div> -->
             <div class="center__p">
                <div class="testbox">
 				  <form action="{{ route('brgy_cert') }}" method="post">
@@ -35,7 +35,7 @@
 								<input type="text" name="first_name" placeholder="First Name" required/>
 								
 							</td>
-							<td><input type="text" name="middle_name" placeholder="Middle Name"/></td>
+							<td><input type="text" id="middle_name" name="middle_name" placeholder="Middle Name"/></td>
 							<td><input type="text" name="last_name" placeholder="Last Name" required/></td>
 							<td><input type="text" name="suffx" placeholder="Suffix"/></td>
 						</tr>
@@ -44,9 +44,9 @@
 							<td><p>Age<span class="required">*</span></p></td>
 						</tr>
 						<tr>
-							<td><input type="date" name="birthdate" required/>
+							<td><input type="date" id="birthdate" name="birthdate" required/>
 								<i class="fas fa-calendar-alt"></i></td>
-							<td><input type="text" name="age" placeholder="Age"></td>
+							<td><input type="text" id="age" name="age" placeholder="Age"></td>
 						</tr>
 					 
 						<tr>
@@ -59,14 +59,66 @@
 						</tr>
 						<tr>
 							<td><input type="text" name="addr4" placeholder="House/ Building No" required/></td>
-							<td><input type="text" name="addr5" placeholder="Street Name" required/></td>
-							<td><input type="text" name="addr6" placeholder="Village/District"/></td>
+							<td>
+								<select name="street" id="street">
+									<option value="KALAYAAN AVENUE">KALAYAAN AVENUE</option>
+									<option value="PALAWAN ST. AND KALAYAAN AVENUE">PALAWAN ST. AND KALAYAAN AVENUE</option>
+									<option value="BASILAN ST. COR. KALAYAAN AVENUE">BASILAN ST. COR. KALAYAAN AVENUE</option>
+									<option value="KALAYAAN AVENUE COR. PALAWAN ST.">KALAYAAN AVENUE COR. PALAWAN ST.</option>
+									<option value="KALAYAAN AVENUE COR. MINDORO ST.">KALAYAAN AVENUE COR. MINDORO ST.</option>
+									<option value="KALAYAAN AVENUE COR. LUZON ST.">KALAYAAN AVENUE COR. LUZON ST.</option>
+									<option value="KALAYAAN AVENUE COR. SULU">KALAYAAN AVENUE COR. SULU</option>
+									<option value="PALAWAN ST.">PALAWAN ST.</option>
+									<option value="PANAY ST.">PANAY ST.</option>
+									<option value="D.V LAURILLA ST.">D.V LAURILLA ST.</option>
+									<option value="CAMIGUIN ST.">CAMIGUIN ST.</option>
+									<option value="CEBU ST.">CEBU ST.</option>
+									<option value="MARINDUQUE ST.">MARINDUQUE ST.</option>
+									<option value="CATANDUANES ST.">CATANDUANES ST.</option>
+									<option value="LAURILA ST.">LAURILA ST.</option>
+									<option value="CORREGIDOR ST.">CORREGIDOR ST.</option>
+									<option value="SIQUIJOR ST.">SIQUIJOR ST.</option>
+									<option value="BELLEZA ST.">BELLEZA ST.</option>
+									<option value="LUZON ST.">LUZON ST.</option>
+									<option value="BASILAN ST.">BASILAN ST.</option>
+									<option value="SULU ST.">SULU ST.</option>
+									<option value="SIQUIJOR ST.">SIQUIJOR ST.</option>
+									<option value="MACTAN ST.">MACTAN ST.</option>
+									<option value="BILIRAN ST.">BILIRAN ST.</option>
+									<option value="NEGROS ST.">NEGROS ST.</option>
+									<option value="CAMOTES ST.">CAMOTES ST.</option>
+									<option value="MASBATE ST.">MASBATE ST.</option>
+									<option value="ROMBLON ST.">ROMBLON ST.</option>
+									<option value="LIMAWASA ST.">LIMAWASA ST.</option>
+									<option value="SAMAR ST.">SAMAR ST.</option>
+									<option value="BOHOL ST.">BOHOL ST.</option>
+									<option value="PANAY ST.">PANAY ST.</option>
+									<option value="MINDORO ST.">MINDORO ST.</option>
+									<option value="LEYTE ST.">LEYTE ST.</option>
+									<option value="SURIGAO ST">SURIGAO ST</option>
+									<option value="HOMONHON ST.">HOMONHON ST.</option>
+									<option value="CEBU ST.">CEBU ST.</option>
+									<option value="AKLAN ST.">AKLAN ST.</option>
+									<option value="GUIMARAS ST.">GUIMARAS ST.</option>
+								</select>
+							</td>
 						</tr>
 						<tr>
 							<td><p>Purpose<span class="required">*</span></p></td>
 						</tr>
 						<tr>
-							<td colspan="12"><textarea type="text" name="purpose" rows="10" required></textarea></td>
+							<td colspan="12">
+								<select name="purpose" id="purpose">
+									<option value="Personal Transactions">Personal Transactions</option>
+									<option value="Scholarship">Scholarship</option>
+									<option value="School Requirements">School Requirements</option>
+									<option value="Job Requirement">Job Requirement</option>
+									<option value="DSWD">DSWD</option>
+									<option value="SPES/GIP">SPES/GIP</option>
+									<option value="Yellow Card">Yellow Card</option>
+									<option value="Makatizen Card">Makatizen Card</option>
+								</select>
+							</td>
 						</tr>
 						<!-- <tr>
 						<td colspan="4"><p>Copy of Valid ID</p></td>

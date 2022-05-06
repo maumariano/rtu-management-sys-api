@@ -470,6 +470,14 @@ form input[type="submit"]:hover {
   visibility: visible;
 }
 
+#street {
+  background-color: white;
+}
+
+#purpose {
+  background-color: white;
+}
+
 .listRequest_drop {
   position: absolute;
   top: 1.8rem;
