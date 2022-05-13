@@ -35,7 +35,7 @@
 								<input type="text" name="first_name" placeholder="First Name" required/>
 								
 							</td>
-							<td><input type="text" name="middle_name" placeholder="Middle Name"/></td>
+							<td><input type="text" id="middle_name" name="middle_name" placeholder="Middle Name"/></td>
 							<td><input type="text" name="last_name" placeholder="Last Name" required/></td>
 							<td><input type="text" name="suffx" placeholder="Suffix"/></td>
 						</tr>
@@ -44,9 +44,9 @@
 							<td><p>Age<span class="required">*</span></p></td>
 						</tr>
 						<tr>
-							<td><input type="date" name="birthdate" required/>
+							<td><input type="date" id="birthdate" name="birthdate" required/>
 								<i class="fas fa-calendar-alt"></i></td>
-							<td><input type="text" name="age" id="age" placeholder="Age"></td>
+							<td><input type="text" id="age" name="age" placeholder="Age"></td>
 						</tr>
 					 
 						<tr>

@@ -1,23 +1,23 @@
-@extends('layouts.app')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
     <div class="container">
         <div class="main">
 			<!-- <div class="left"> 
 			 <h2>Services</h2>
 			 <br>
 				<ul class="serv__listitemdrop">
-				  <li><a href="{{ route('brgy_clearance') }}">Barangay Clearance</a></li>
-				  <li><a href="{{ route('brgy_cert') }}">Barangay Certificate</a></li>
-				  <li><a href="{{ route('indigency') }}">Certificate of Indigency</a></li>
-				  <li><a href="{{ route('permit') }}">Permit for Telecommunication</a></li>
-				  <li><a href="{{ route('spc') }}">Solo Parent Certification</a></li>
+				  <li><a href="<?php echo e(route('brgy_clearance')); ?>">Barangay Clearance</a></li>
+				  <li><a href="<?php echo e(route('brgy_cert')); ?>">Barangay Certificate</a></li>
+				  <li><a href="<?php echo e(route('indigency')); ?>">Certificate of Indigency</a></li>
+				  <li><a href="<?php echo e(route('permit')); ?>">Permit for Telecommunication</a></li>
+				  <li><a href="<?php echo e(route('spc')); ?>">Solo Parent Certification</a></li>
 				</ul>
 			</div> -->
             <div class="center__p">
                <div class="testbox">
-				  <form action="{{ route('brgy_cert') }}" method="post">
-					  @csrf
+				  <form action="<?php echo e(route('brgy_cert')); ?>" method="post">
+					  <?php echo csrf_field(); ?>
 					<div class="banner__p">
 					  <h1>Solo Parent Certification</h1>
 					</div><br>
@@ -176,8 +176,8 @@
 						</div>
 
 						<div class="btn-block">
-							<form action="{{ route('welcome') }}"></form>
-								@csrf
+							<form action="<?php echo e(route('welcome')); ?>"></form>
+								<?php echo csrf_field(); ?>
 						  		<button type="submit">Cancel</button> &nbsp;&nbsp;
 							</form>
 						  <button type="submit" data-toggle="modal" data-target="#modal">Submit</button>
@@ -188,6 +188,7 @@
 		</div>
 	</div>
 	
-@include('layouts.footer')
+<?php echo $__env->make('layouts.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\rtu-management-sys-api\resources\views/services/spc.blade.php ENDPATH**/ ?>
