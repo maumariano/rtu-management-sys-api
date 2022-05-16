@@ -1,0 +1,63 @@
+Digital Advantage Corp.
+SMAC Online Backoffice Report
+
+
+Report Generated Date: March 29, 2022
+Coupon Code	Campaign Title	State    	Claim Count	Claim Limit	ID Type	Owner                   	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915971             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915976             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491592              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491594              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491593              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915123             	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Dispensed	10         	0          	EMAIL  	rijanlexterlibuna@Gg.com	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915972             	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915971             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491592              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915976             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915972             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491593              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915123             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491593              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915972             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	EMAIL  	rijanlexterlibuna@Gg.com	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915971             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491594              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915976             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915912             	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491594              	
+           	LexTest       	Dispensed	10         	0          	EMAIL  	rijanlexterlibuna@Gg.com	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	0995491592              	
+           	LexTest       	Dispensed	10         	0          	MOBILE 	09954915123             	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
+           	LexTest       	Seed     	10         	0          	       	                        	
